@@ -27,7 +27,7 @@ class SteprNumber : UIView {
     fileprivate var _adjustsFontSizeToFitWidth : Bool = false
     fileprivate var _dataArray : [AnyObject]?
     fileprivate var _font : UIFont = UIFont.systemFont(ofSize: 64)
-    fileprivate var _textColor : UIColor = UIColor(white: 0.81, alpha: 1)
+    fileprivate var _textColor : UIColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
     
     fileprivate var _easeDigitFadeIn : Ease = Ease.quintOut
     fileprivate var _easeDigitFadeOut : Ease = Ease.quintOut
